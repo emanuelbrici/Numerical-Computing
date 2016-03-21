@@ -1,0 +1,17 @@
+Emanuel Brici
+SID: 11395261
+emanuel.brici@gmail.com
+
+Project: Durand-Kerner Method
+Files:
+	dk.c
+	README
+
+To run my program first open up a shell window. Change the directory you are 
+in to one that holds the file dk.c. You are now ready to run the program. 
+gcc -g -std=c99 -Wall dk.c -o dk -lm is used to compile the program. To run 
+the program with an imput type ./dk.c < (input).in and the program will run.
+My program finds the roots of a polynomial using Durand-Kerner method by 
+iteratively refining guesses with an update formula.
+ 
+	

@@ -31,6 +31,12 @@
 # Debug files
 *.dSYM/
 
+<<<<<<< HEAD
 # OS generated files #
 .DS_Store?
 .DS_Srore
+=======
+# OS generated files 
+.DS_Store
+.DS_Store?
+>>>>>>> c7ecb1e6af28ea75bdd6dd528ec8847652cf5f88

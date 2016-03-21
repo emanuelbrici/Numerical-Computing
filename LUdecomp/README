@@ -1,0 +1,18 @@
+Emanuel Brici
+SID: 11395261
+emanuel.brici@gmail.com
+
+Project: LU Decomposition Engine
+Files:
+	LUdecomp.h
+	LUdecomp.c
+	LUtest.c
+	makefile
+	README
+
+To run my program first open up a shell window. Change the directory you are
+in to one that holds the files downloaded. You are now ready to run the 
+program. To compile the files given above type make in the terminal. 
+After compile complition you can type make test in the terminal which
+with run LUtest.c. Test.c will solve a 5x5, 10x10, and a 600x600 matrixs 
+and tell you the error. 

@@ -1,0 +1,29 @@
+Emanuel Brici
+SID: 11395261
+emanuel.brici@gmail.com
+
+Project: Computing Homography Transformations
+Files:
+	LUdecomp.h
+	LUdecomp.c
+	homography.c
+	makefile
+	README
+
+To run my program first open up a shell window. Change the directory you are
+in to one that holds the files downloaded. You are now ready to run the 
+program. To compile the files given above type "make" in the terminal. My program
+works when N is greater then 4 so you can run it on the shelves example. To run 
+the boxtop this command will do it. 
+
+$ ./homography < boxtop.in | ./hmap cheerios-small.ppm 500 650 > face.ppm
+
+To run the shelves example type in 
+
+$ ./homography < shelves.in | ./hmap shelves-left.ppm 1024 768 > shelves.ppm
+
+This project you will create a module for solving linear equations of the form
+Ax = b using LU decomposition and then use your module to build an application
+that determines the parameters of an interesting image transformation involving 
+projections.
+

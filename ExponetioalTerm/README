@@ -1,0 +1,17 @@
+Emanuel Brici
+SID: 11395261
+emanuel.brici@wsu.edu
+
+Files:
+	exp.c
+	relerror.c
+	README
+	
+I found my minimal n for my Taylor series through my program relerror.c.
+This program returned n with the corresponding upper bound for the relative 
+error using the equation that was given in the assignment.Then I was able to 
+find the smallest n so that the relative error was guaranteed to be below
+1.19209x10^-7. I determined that n = 7 which informed me that I would need 
+to use 7 terms from my Taylor series. It is possible that when the expirement
+is run that the reletive error exceeds epsilon. This is most likely do to 
+rounding error when calculations are being done in the myexp function.

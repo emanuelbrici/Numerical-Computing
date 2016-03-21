@@ -1,0 +1,17 @@
+Emanuel Brici
+SID: 11395261
+emanuel.brici@gmail.com
+
+Project: Estimating Pi via Numerical Integration
+Files:
+        EstimatingPi.c
+        README
+
+To run my program first open up a shell window. Change the directory you are
+in to one that holds the file dk.c. You are now ready to run the program.
+gcc -g -std=c99 EstimatingPi.c -o EstimatingPi is used to compile the program.
+To run the program simply type ./EstimatingPi and the program will run and
+give you an out put. You may need to adjust your terminal window size to get
+everything display nicely. My program uses four different methods (Trapezoid
+,Simpsons1/3, Simpsons3/8, Booles) to estimate Pi. The output in the window
+terminal outputs the error or each method.
